@@ -4,12 +4,13 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
-    <servlet>
-        <servlet-name>Customers</servlet-name>
-        <servlet-class>controller.CustomerServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Customers</servlet-name>
-        <url-pattern>/customers</url-pattern>
-    </servlet-mapping>
+
 </web-app>
+<servlet>
+<servlet-name>Customers</servlet-name>
+<servlet-class>controller.CustomerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Customers</servlet-name>
+<url-pattern>/customers</url-pattern>
+</servlet-mapping>
